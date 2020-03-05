@@ -1,0 +1,7 @@
+Plug 'ajmwagar/vim-deus'
+
+" Auto Complete
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'junegunn/fzf.vim'
+Plug 'junegunn/fzf'
+Plug 'mhinz/vim-startify'

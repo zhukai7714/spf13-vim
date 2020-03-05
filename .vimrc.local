@@ -1,0 +1,13 @@
+colorscheme deus
+let g:airline_theme = 'deus'
+AirlineToggleWhitespace
+
+" Startify
+let g:startify_lists = [
+			\ { 'type': 'files',		 'header': ['	 MRU']						},
+			\ { 'type': 'bookmarks', 'header': ['	 Bookmarks']			},
+			\ { 'type': 'commands',	'header': ['	 Commands']			 },
+			\ ]
+
+" Open Startify
+noremap <LEADER>st :Startify<CR>
