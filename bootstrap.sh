@@ -200,7 +200,7 @@ sync_repo       "$HOME/.vim/bundle/vundle" \
                 "master" \
                 "vundle"
 
-setup_vundle    "$APP_PATH/.vimrc.bundles.default"
+# setup_vundle    "$APP_PATH/.vimrc.bundles.default"
 
 msg             "\nThanks for installing $app_name."
 msg             "© `date +%Y` http://vim.spf13.com/"
