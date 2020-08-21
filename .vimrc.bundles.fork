@@ -4,4 +4,5 @@ Plug 'ajmwagar/vim-deus'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf'
+Plug 'liuchengxu/vista.vim'
 Plug 'mhinz/vim-startify'

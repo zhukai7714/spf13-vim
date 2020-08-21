@@ -160,9 +160,9 @@
             Plug 'tpope/vim-commentary'
             Plug 'godlygeek/tabular'
             Plug 'luochen1990/rainbow'
-            if executable('ctags')
-                Plug 'majutsushi/tagbar'
-            endif
+            " if executable('ctags')
+            "     Plug 'majutsushi/tagbar'
+            " endif
         endif
     " }
 

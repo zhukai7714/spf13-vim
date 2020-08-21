@@ -1,6 +1,7 @@
 colorscheme deus
 let g:airline_theme = 'deus'
-AirlineToggleWhitespace
+
+let g:airline#extensions#whitespace#enabled = 0
 
 " Startify
 let g:startify_lists = [
@@ -11,3 +12,14 @@ let g:startify_lists = [
 
 " Open Startify
 noremap <LEADER>st :Startify<CR>
+
+noremap <LEADER>v :Vista coc<CR>
+noremap <c-t> :silent! Vista finder coc<CR>
+let g:vista_icon_indent = ["╰─▸ ", "├─▸ "]
+let g:vista_default_executive = 'coc'
+let g:vista_fzf_preview = ['right:50%']
+let g:vista#renderer#enable_icon = 1
+let g:vista#renderer#icons = {
+\   "function": "\uf794",
+\   "variable": "\uf71b",
+\  }
